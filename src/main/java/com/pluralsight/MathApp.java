@@ -10,13 +10,14 @@ public class MathApp {
 
             System.out.println("The highest salary is .." + highestSalary );
 
-        int carPrice = 40_000;
-        int truckPrice = 500_000;
-        int lowestPrice = Math.min(carPrice, truckPrice);
+        double carPrice = 40_000;
+        double truckPrice = 500_000;
+        double lowestPrice = Math.min(carPrice, truckPrice);
             System.out.println("The lowest price of night is.... " + lowestPrice);
 
-        float areaCircle = (float) (Math.PI * 7.25);
-            System.out.println("The area of special circle is... " + areaCircle);
+        double radius = 7.25;
+        double area = Math.PI * Math.pow(radius, 2);
+            System.out.println("The area of special circle is... " + area);
 
         float squareRoot = (float) (Math.sqrt(5.0));
             System.out.println("The square root is.... " + squareRoot);
@@ -28,7 +29,7 @@ public class MathApp {
 
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-            System.out.println("The distance between both points are... " + distance) ;
+            System.out.println("The distance between both points are... " + distance);
 
 
         double x = -3.8;
